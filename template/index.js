@@ -1,4 +1,6 @@
-<template>
+
+var index = Vue.extend({
+    template: `
     <div class="page-container">
         <header>
             <span class="logo">POWERED BY : 前端小学生</span>
@@ -24,16 +26,6 @@
                 <span class="small-span">E</span>
             </div>
         </div>
-    </div>
-</template>
-<script>
-    export default {
-        name: 'index',
-        data(){
-            return {}
-        }
-    }
-</script>
-<style>
-    @import '../css/index.css';
-</style>
+    </div>`
+});
+new index().$mount('#index');
