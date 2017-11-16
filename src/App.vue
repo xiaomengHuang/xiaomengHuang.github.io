@@ -4,13 +4,10 @@
             <span class="logo">POWERED BY : 前端小学生</span>
             <ul>
                 <li>
-                    <router-link to="/index">主页</router-link>
+                    <router-link to="/index">Home</router-link>
                 </li>
                 <li>
-                    <router-link to="/">test</router-link>
-                </li>
-                <li>
-                    <router-link to="/bar">bar</router-link>
+                    <router-link to="/">Works</router-link>
                 </li>
             </ul>
         </header>
@@ -30,7 +27,6 @@
                     <span class="small-span">E</span>
                 </div>
                 </div>
-        <router-view></router-view>
     </div>
 </template>
 
@@ -46,31 +42,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
-h1,
-h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
+  @import './css/main.css'
 </style>
