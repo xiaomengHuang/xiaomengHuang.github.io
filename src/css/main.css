@@ -70,9 +70,6 @@ header ul li:hover{
     text-align: center;
     border-bottom: 8px solid white;
 }
-.body-inner:hover{
-
-}
 .hidden{
     visibility: hidden;
 }
