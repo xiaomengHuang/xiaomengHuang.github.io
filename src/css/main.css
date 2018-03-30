@@ -1,18 +1,21 @@
-html,body,div,ul,li{
-    margin:0;
+html, body, div, ul, li {
+    margin: 0;
     padding: 0;
     font-family: "Microsoft YaHei UI";
 }
-.page-container{
+
+.page-container {
     position: fixed;
     height: 100%;
     width: 100%;
-    background: rgba(50,50,50,1);
+    background: rgba(50, 50, 50, 1);
 }
-header{
+
+header {
     padding-top: 24px;
 }
-.logo{
+
+.logo {
     position: absolute;
     top: 24px;
     left: 24px;
@@ -25,11 +28,13 @@ header{
     line-height: 30px;
     background: #8666B8;
 }
-header ul{
+
+header ul {
     list-style: none;
     text-align: right;
     padding-right: 20px;
 }
+
 header ul li {
     margin-right: 10px;
     display: inline-block;
@@ -37,8 +42,8 @@ header ul li {
     cursor: pointer;
     width: 66px;
     font-size: 18px;
-    background: rgba(255,255,255,0.3);
-    height:40px;
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px;
     line-height: 40px;
     text-align: center;
     border-radius: 4px;
@@ -48,16 +53,18 @@ header ul li {
     -o-transition: all 1s;
     transition: all 1s;
 }
-header ul li:hover{
+
+header ul li:hover {
     background: white;
     color: black;
 }
 
-.body-container{
-    height: calc( 100% - 64px );
+.body-container {
+    height: calc( 100% - 64px);
     position: relative;
 }
-.body-inner{
+
+.body-inner {
     cursor: default;
     position: absolute;
     top: 0;
@@ -70,14 +77,17 @@ header ul li:hover{
     text-align: center;
     border-bottom: 8px solid white;
 }
-.hidden{
+
+.hidden {
     visibility: hidden;
 }
-.big-span{
+
+.big-span {
     font-size: 100px;
     color: #28a773;
 }
-.small-span{
+
+.small-span {
     font-size: 60px;
     color: #dc725d;
 }
