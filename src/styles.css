@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: "Microsoft YaHei UI";
+}
 
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
     margin: 0;
@@ -68,4 +71,8 @@ table {
 }
 ::-webkit-scrollbar-thumb:hover {
    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+}
+
+.bottom-shadow {
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
 }

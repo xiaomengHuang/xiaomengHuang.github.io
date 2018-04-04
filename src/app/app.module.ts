@@ -7,13 +7,15 @@ import { RootRoutes } from './app.router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ShareComponent } from './share/share.component';
+import { MeComponent } from './me/me.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ShareComponent
+    ShareComponent,
+    MeComponent
   ],
   imports: [
     BrowserModule,
