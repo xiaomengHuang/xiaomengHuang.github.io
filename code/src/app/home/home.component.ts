@@ -1,8 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd, NavigationStart } from '@angular/router';
 
-import { Observable } from 'rxjs/Rx';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/observable/of';
 import 'rxjs/add/operator/filter';
+declare const markdown;
+
 
 @Component({
   selector: 'app-home',
@@ -11,12 +14,14 @@ import 'rxjs/add/operator/filter';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private router: Router) { 
+  constructor(private router: Router) {
     this.router.events.filter(event => event instanceof NavigationEnd)
-    .subscribe(e => console.log(e))
+    .subscribe(e => console.log(e));
   }
 
   ngOnInit() {
+    Observable.of('start').subscribe();
+    console.log(markdown);
   }
 
 }
