@@ -3,16 +3,17 @@
     position: fixed;
     height: 100%;
     width: 100%;
-    background-image: url('../lib/1.jpeg');
+    /* background-image: url('../lib/1.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: center;
     background-position-y: center;
-    background-size: 100%;
+    background-size: 100%; */
+    background-color: #f1f1f1;
 }
 header{
     padding:24px 0;
-    background: #333;
+    background: #fff;
 }
 .logo{
     position: absolute;
@@ -39,7 +40,7 @@ header ul li {
     cursor: pointer;
     padding: 0 10px;
     font-size: 18px;
-    background: rgba(255,255,255,0.4);
+    background: #333;
     height:30px;
     line-height: 30px;
     text-align: center;
