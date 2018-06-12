@@ -1,7 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url(/assets/fonts/Roboto-Medium.ttf); 
+}
+
 *{
-    font-family: "Microsoft YaHei UI";
+    font-family: 'RobotoMedium';
 }
 
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
